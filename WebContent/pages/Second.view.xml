@@ -1,0 +1,9 @@
+<View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+   <Page title="Employee Details">
+        <content>
+           
+             <Button text="SecondPage"/>
+        </content>
+   </Page>
+ 
+</View>

@@ -14,16 +14,22 @@
 		<script>
 		   
 		sap.ui.localResources("pages");
-		
+		sap.ui.localResources("controllers");
 		  var oView1 = sap.ui.view({
 			  id : "view1",
 			  viewName : "pages.Home",
 			  type : "XML"
 		  });
-		    
+		  
+		  var oView2 = sap.ui.view({
+			 id : "view2",
+			 viewName : "pages.Second",
+			 type : "XML"
+		  });
+		  
 			new sap.m.App({
 				pages : [
-				         oView1
+				         oView1, oView2
 				         ]
 			}).placeAt("content");
 			
