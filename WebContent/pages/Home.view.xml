@@ -1,0 +1,18 @@
+<x1:View xmlns:x1="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core">
+     
+     <Page title="Employee Registration Form">
+        <content>
+           <form:SimpleForm>
+                <form:title>
+                    <core:Title text="Please Enter Employee Details"/>
+                </form:title>
+                <form:content>
+                      <Label text="Employee Name"/>
+                      <Input />
+                      <Label text="Department"/>
+                      <Input />
+                </form:content>
+           </form:SimpleForm>
+        </content>
+     </Page>
+</x1:View>
